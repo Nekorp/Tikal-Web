@@ -1,0 +1,39 @@
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container">
+	<div class="navbar-header">
+	  <button type="button" class="navbar-toggle collapsed" ng-click="isCollapsed = !isCollapsed">
+		<span class="sr-only">Toggle navigation</span>
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+	  </button>
+	</div>
+	<!-- Collect the nav links, forms, and other content for toggling -->
+	<div id="navbar" class="navbar-default collapse navbar-collapse" uib-collapse="isCollapsed">
+		<ul class="nav navbar-nav navbar-right">
+			<li class="{{isActiveOption('/inicio')}}"><a href="#/inicio" ng-click="isCollapsed = true">INICIO</a></li>
+            <li class="{{isActiveOption('/nosotros')}}"><a href="#/nosotros" ng-click="isCollapsed = true">NOSOTROS</a></li>
+			<li class="dropdown {{isActiveOption('/industria')}}" uib-dropdown>
+				<a href id="simple-dropdown" uib-dropdown-toggle>INDUSTRIA</a>
+				<ul class="dropdown-menu" aria-labelledby="simple-dropdown">
+					<li class="{{isActiveOption('/industria/coso')}}"><a href="#/industria/coso" ng-click="isCollapsed = true">COSO</a></li>
+				</ul>
+			</li>
+			<li class="dropdown {{isActiveOption('/procesos')}}" uib-dropdown>
+				<a href id="simple-dropdown" uib-dropdown-toggle>PROCESOS</a>
+				<ul class="dropdown-menu" aria-labelledby="simple-dropdown">
+                    <!--<li class="dropdown-header">Tinturas</li>style="padding-left:20%;"-->
+                    <li class="{{isActiveOption('/procesos/tintura/poliester')}}"><a href="#/procesos/tintura/poliester" ng-click="isCollapsed = true">TINTURA EN POLIESTER</a></li>
+                    <li class="{{isActiveOption('/procesos/tintura/nylon')}}"><a href="#/procesos/tintura/nylon" ng-click="isCollapsed = true">TINTURA EN NYLON</a></li>
+                    <li class="{{isActiveOption('/procesos/tintura/algodon')}}"><a href="#/procesos/tintura/algodon" ng-click="isCollapsed = true">TINTURA EN ALGOD&Oacute;N 100%</a></li>
+                    <li class="{{isActiveOption('/procesos/tintura/polialgodon')}}"><a href="#/procesos/tintura/polialgodon" ng-click="isCollapsed = true">TINTURA EN POLIESTER/ALGOD&Oacute;N</a></li>
+                    <!--<li class="divider"></li>-->
+                    <li class="{{isActiveOption('/procesos/pre-blanqueo')}}"><a href="#/procesos/pre-blanque" ng-click="isCollapsed = true">PRE-BLANQUEO QU&Iacute;MICO Y BLANQUEO &Oacute;PTICO</a></li>
+                    <li class="{{isActiveOption('/procesos/acabado')}}"><a href="#/procesos/acabado" ng-click="isCollapsed = true">ACABADO DE TELAS</a></li>
+				</ul>
+			</li>
+            <li class="{{isActiveOption('/contacto')}}"><a href="#/contacto" ng-click="isCollapsed = true">CONTACTO</a></li>
+		</ul>
+	</div><!-- /.navbar-collapse -->
+  </div>
+</nav>
