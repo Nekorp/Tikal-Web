@@ -36,3 +36,13 @@ body {
     border-bottom-color: #105677;
     border-bottom-width: 5px;
 }
+
+.center {
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+}
+
+.navbar-inverse {
+    width: 1200px;
+}
