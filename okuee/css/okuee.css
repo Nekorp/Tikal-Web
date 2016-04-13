@@ -11,9 +11,13 @@ body {
     background-color: #FFF;
 }
 
+.navbar-right {
+    margin-right: 14px;
+}
+
 /* link */
 .navbar-default .navbar-nav > li > a {
-    color: #000;
+    color: #555555;
     height: 84px;
     width: 133px;
     text-transform: uppercase;
@@ -24,7 +28,8 @@ body {
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-    color: #000;
+    color: #555555;
+    background-color: #ebebeb;
 }
 .navbar-default .navbar-nav > .active > a, 
 .navbar-default .navbar-nav > .active > a:hover, 
@@ -32,16 +37,64 @@ body {
     color: #FFF;
     background-color: #6aab35;
 }
+
 .navbar-default .navbar-nav > .open > a, 
 .navbar-default .navbar-nav > .open > a:hover, 
 .navbar-default .navbar-nav > .open > a:focus {
-    color: #000;
-    background-color: #EEE;
+    color: #555555;
+    background-color: #ebebeb;
+}
+
+.dropdown-menu > li > a {
+    height: 100%;
+    padding-top: 8px;
+    padding-bottom: 0px;
+}
+
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+    background-color: #d7d7d7;
+}
+
+.dropdown-menu > .active > a,
+.dropdown-menu > .active > a:focus,
+.dropdown-menu > .active > a:hover {
+    color: #555555;
+    text-decoration: none;
+    background-color: #d7d7d7;
+    outline: 0;
+}
+
+.navbar-nav > li > .dropdown-menu {
+    /*min-width: 133px;*/
+    padding: 0px;
+    background-color: #ebebeb;
+    border: 0px;
+    margin-top: 8px;
+    border-radius: 0px;
+    box-shadow: none;
+}
+
+.okuee-dropdown-li {
+    height: 33px;
+    font-size: 12px;
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+    border-bottom: 1px;
+    border-bottom-color: #d7d7d7;
+}
+
+.dropdown-menu .divider {
+    height: 1px;
+    margin: 0px;
+    overflow: hidden;
+    background-color: #d7d7d7;
 }
 
 .navbar-inverse {
     border-bottom-color: #105677;
-    border-bottom-width: 0px;
+    border-bottom-width: 8px;
+    /*width: 1200px;*/
 }
 
 .container-header {
@@ -54,4 +107,11 @@ body {
 
 .okuee-logo {
     padding-top: 8px;
+    padding-left: 30px;
+}
+
+.center {
+    margin: auto;
+    width: 60%;
+    /*padding: 10px;*/
 }

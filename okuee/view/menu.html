@@ -1,4 +1,4 @@
-<nav class="navbar navbar-inverse navbar-fixed-top">
+<nav class="navbar navbar-inverse navbar-fixed-top center">
   <div class="container container-header">
     <a class="navbar-brand navbar-left okuee-logo" href="#/inicio"><img src="resources/logo.png" alt="O'kuee Logo" width="179" height="68"></a>
 	<div class="navbar-header">
@@ -17,20 +17,28 @@
 			<li class="dropdown {{isActiveOption('/industria')}}" uib-dropdown>
 				<a href id="simple-dropdown" uib-dropdown-toggle>Industria</a>
 				<ul class="dropdown-menu" aria-labelledby="simple-dropdown">
-					<li class="{{isActiveOption('/industria/coso')}}"><a href="#/industria/coso" ng-click="isCollapsed = true">COSO</a></li>
+					<li class="{{isActiveOption('/industria/textil')}} okuee-dropdown-li"><a href="#/industria/textil" ng-click="isCollapsed = true">Textil</a></li>
+                    <li class="divider"></li>
+                    <li class="{{isActiveOption('/industria/institucional')}} okuee-dropdown-li"><a href="#/industria/institucional" ng-click="isCollapsed = true">Institucional</a></li>
+                    <li class="divider"></li>
+                    <li class="{{isActiveOption('/industria/quimicos')}} okuee-dropdown-li"><a href="#/industria/quimicos" ng-click="isCollapsed = true">Qu&iacute;micos</a></li>
 				</ul>
 			</li>
 			<li class="dropdown {{isActiveOption('/procesos')}}" uib-dropdown>
 				<a href id="simple-dropdown" uib-dropdown-toggle>Procesos</a>
 				<ul class="dropdown-menu" aria-labelledby="simple-dropdown">
                     <!--<li class="dropdown-header">Tinturas</li>style="padding-left:20%;"-->
-                    <li class="{{isActiveOption('/procesos/tintura/poliester')}}"><a href="#/procesos/tintura/poliester" ng-click="isCollapsed = true">Tintura en poliester</a></li>
-                    <li class="{{isActiveOption('/procesos/tintura/nylon')}}"><a href="#/procesos/tintura/nylon" ng-click="isCollapsed = true">Tintura en nylon</a></li>
-                    <li class="{{isActiveOption('/procesos/tintura/algodon')}}"><a href="#/procesos/tintura/algodon" ng-click="isCollapsed = true">Tintura en algod&oacute;n 100%</a></li>
-                    <li class="{{isActiveOption('/procesos/tintura/polialgodon')}}"><a href="#/procesos/tintura/polialgodon" ng-click="isCollapsed = true">Tintura en poliester/Algod&oacute;n</a></li>
-                    <!--<li class="divider"></li>-->
-                    <li class="{{isActiveOption('/procesos/pre-blanqueo')}}"><a href="#/procesos/pre-blanque" ng-click="isCollapsed = true">Pre-blanqueo qu&iacute;mico y blanqueo &oacute;ptico</a></li>
-                    <li class="{{isActiveOption('/procesos/acabado')}}"><a href="#/procesos/acabado" ng-click="isCollapsed = true">Acabado de telas</a></li>
+                    <li class="{{isActiveOption('/procesos/tintura/poliester')}} okuee-dropdown-li"><a href="#/procesos/tintura/poliester" ng-click="isCollapsed = true">Tintura en poliester</a></li>
+                    <li class="divider"></li>
+                    <li class="{{isActiveOption('/procesos/tintura/nylon')}} okuee-dropdown-li"><a href="#/procesos/tintura/nylon" ng-click="isCollapsed = true">Tintura en nylon</a></li>
+                    <li class="divider"></li>
+                    <li class="{{isActiveOption('/procesos/tintura/algodon')}} okuee-dropdown-li"><a href="#/procesos/tintura/algodon" ng-click="isCollapsed = true">Tintura en algod&oacute;n 100%</a></li>
+                    <li class="divider"></li>
+                    <li class="{{isActiveOption('/procesos/tintura/polialgodon')}} okuee-dropdown-li"><a href="#/procesos/tintura/polialgodon" ng-click="isCollapsed = true">Tintura en poliester/Algod&oacute;n</a></li>
+                    <li class="divider"></li>
+                    <li class="{{isActiveOption('/procesos/pre-blanqueo')}} okuee-dropdown-li"><a href="#/procesos/pre-blanque" ng-click="isCollapsed = true">Pre-blanqueo qu&iacute;mico y blanqueo &oacute;ptico</a></li>
+                    <li class="divider"></li>
+                    <li class="{{isActiveOption('/procesos/acabado')}} okuee-dropdown-li"><a href="#/procesos/acabado" ng-click="isCollapsed = true">Acabado de telas</a></li>
 				</ul>
 			</li>
             <li class="{{isActiveOption('/contacto')}}"><a href="#/contacto" ng-click="isCollapsed = true">Contacto</a></li>
