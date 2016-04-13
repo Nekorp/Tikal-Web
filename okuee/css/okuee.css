@@ -14,6 +14,13 @@ body {
 /* link */
 .navbar-default .navbar-nav > li > a {
     color: #000;
+    height: 84px;
+    width: 133px;
+    text-transform: uppercase;
+    /*font-weight: bold;*/
+    font-family: 'Montserrat';
+    padding-top: 52px;
+    text-align: center;
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
@@ -34,5 +41,17 @@ body {
 
 .navbar-inverse {
     border-bottom-color: #105677;
-    border-bottom-width: 5px;
+    border-bottom-width: 0px;
+}
+
+.container-header {
+    height: 84px;
+}
+
+.okuee-nav {
+    padding-top: 50px;
+}
+
+.okuee-logo {
+    padding-top: 8px;
 }
