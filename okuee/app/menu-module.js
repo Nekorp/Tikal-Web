@@ -13,7 +13,7 @@ var menuModule = angular.module('tikal.modules.menu.Menu', ['ngRoute','ui.bootst
 });*/
 
 menuModule.config(function ($routeProvider, $httpProvider) {
-  //$routeProvider.otherwise({redirectTo: '/pedido'});
+  $routeProvider.otherwise({redirectTo: '/inicio'});
 });
 
 menuModule.directive('applicationMenu', function() {
