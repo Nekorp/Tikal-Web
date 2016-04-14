@@ -1,7 +1,7 @@
 'use strict';
 
 /* Controllers */
-var interiorModule = angular.module('tikal.modules.inicio.Inicio', ['ngRoute','ui.bootstrap']);
+var interiorModule = angular.module('tikal.modules.interior.Interior', ['ngRoute','ui.bootstrap']);
 
 interiorModule.config(function ($routeProvider, $httpProvider) {
 	$routeProvider.when('/procesos/tintura/poliester', {templateUrl: 'view/interior/interior.html', controller: 'tikal.modules.procesos.tintura.poliester'});
