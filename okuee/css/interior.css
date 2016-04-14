@@ -1,0 +1,33 @@
+/**
+Container para los titulos de los cosos
+**/
+.interior-container {
+    background-color: #ebebeb;
+    padding-top: 26px;
+    padding-bottom: 20px;
+}
+
+/**
+Titulo del interior
+**/
+.okuee-title {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+    color: #105677;
+    font-size: 34px;  
+}
+
+/**
+sub-Titulo del interior
+**/
+.okuee-subtitle {
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+    color: #555555;
+    font-size: 19px;
+    letter-spacing: 5px;
+    
+}

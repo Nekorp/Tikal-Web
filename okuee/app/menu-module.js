@@ -1,7 +1,7 @@
 'use strict';
 
 /* Controllers */
-var menuModule = angular.module('tikal.modules.menu.Menu', ['ngRoute','ui.bootstrap', 'tikal.modules.inicio.Inicio', 'tikal.modules.interior.Interior']);
+var menuModule = angular.module('tikal.modules.menu.Menu', ['ngRoute','ui.bootstrap']);
 
 // Clear browser cache (in development mode)
 //
