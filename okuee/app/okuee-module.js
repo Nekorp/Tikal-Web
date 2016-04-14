@@ -6,6 +6,9 @@ var okueeModule = angular.module('tikal.modules.okuee', ['ngRoute','ui.bootstrap
 okueeModule.directive('okueeHeader', function() {
   return {
     restrict: 'E',
+    scope: {
+      datos: '=datos'
+    },
     templateUrl: 'view/section-header.html'
   };
 });
