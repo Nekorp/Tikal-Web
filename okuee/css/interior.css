@@ -8,7 +8,7 @@ Container para los titulos de los cosos
 }
 
 /**
-Titulo del interior
+Titulo
 **/
 .okuee-title {
     text-align: center;
@@ -19,7 +19,7 @@ Titulo del interior
 }
 
 /**
-sub-Titulo del interior
+sub-Titulo
 **/
 .okuee-subtitle {
     text-align: center;
@@ -29,5 +29,49 @@ sub-Titulo del interior
     color: #555555;
     font-size: 19px;
     letter-spacing: 5px;
-    
+}
+
+.interior-subtitle-container {
+    padding-top: 19px;
+    padding-bottom: 12px;
+}
+
+/* subtitulo en el contenido interior*/
+.okuee-interior-subtitle {
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+    color: #959595;
+    font-size: 14px;    
+}
+
+/*Titulo de las secciones*/
+.okuee-section-title {
+    text-align: left;
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+    color: #105677;
+    font-size: 18px;  
+}
+
+/*div de contenido*/
+.okuee-content-div {
+    height: 250px;
+    padding-right: 15px;
+    background-color: #ebebeb;
+}
+
+.okuee-p-text{
+    font-family: 'Montserrat';
+    color: #111111;
+    font-size: 12px;
+    line-height: 22px;
+    text-align: justify;
+}
+
+.okuee-initial-p-text{
+    font-weight: bold;
+}
+
+.okuee-image-container {
+    padding-left: 10px;
 }

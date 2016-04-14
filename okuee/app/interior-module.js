@@ -37,7 +37,12 @@ interiorModule.controller('tikal.modules.procesos.tintura.poliester', ['$scope',
         image:'resources/int-img1.jpg'
     };
     $scope.datosContenido={
-        image:'resources/int-img2.jpg'
+        image:'resources/int-img2.jpg',
+        imageGraph:'resources/captura.png',
+        subtitle:'Procesos/Tintura de poliester',
+        title1: 'Tintura',
+        title2: 'en poliester',
+        content: 'OVADET HT2 Proporciona  al género, blancura homogénea en todos los rollos, excelente  hidrofilidad y buena humectación. OVAL G-30  agente lubricante ligeramente viscoso utilizable en el baño de tintura, ayudan a la fricción del material, eliminando marcas y reduciendo considerablemente las arrugas.DISPRO DN es un retardan te especial para obtener tinturas bien igualadas con colorantes  tiene una variedad de propiedades exclusivas para retardar el agotamiento y mejorar la migración del colorante. Evita las desigualdades de tinturas producidas por variación de temperaturas en la tintura de fibras acrílicas y nylon, garantiza una subida regular del colorante.QUELANT 39  agente secuestran te de iones Fe2+ y Mg2+ presentes en el agua, para dar un ablandamiento eficaz en proceso textil, secuestra 120 ppm por cada gramo que utilice de producto.'
     };
 }]);
 
