@@ -34,6 +34,7 @@ sub-Titulo
 .interior-subtitle-container {
     padding-top: 19px;
     padding-bottom: 12px;
+    padding-left: 15px;
 }
 
 /* subtitulo en el contenido interior*/
@@ -60,6 +61,7 @@ sub-Titulo
     background-color: #ebebeb;
 }
 
+/* descripciones de los procesos*/
 .okuee-p-text{
     font-family: 'Montserrat';
     color: #111111;
@@ -68,10 +70,21 @@ sub-Titulo
     text-align: justify;
 }
 
+/* descripcion de procesos primera parte*/
+.okuee-p-text1{
+    font-family: 'Montserrat';
+    color: #363636;
+    font-size: 18px;
+    line-height: 34px;
+    text-align: justify;
+}
+
+/* descripcion inicial del parrafo */
 .okuee-initial-p-text{
     font-weight: bold;
 }
 
+/* contenedor de imagenes para que de el tamanyo */
 .okuee-image-container {
     padding-left: 10px;
 }

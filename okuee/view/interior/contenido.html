@@ -7,7 +7,9 @@
 
 <div class="span12">
     <div class="col-md-8">
-        <p>Nuestros procesos son realizados en nuestras instalaciones que lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+        <p class="okuee-p-text1">
+            {{datos.description}}
+        </p>
     </div>
     <div class="col-md-4 okuee-content-div">
        <img src={{datos.image}} class="img-responsive"/>
@@ -18,8 +20,9 @@
     <p class="okuee-section-title">
         {{datos.title1}} <strong>{{datos.title2}}</strong>
     </p>
-    <p class='okuee-p-text'>
-        {{datos.content}}
+    
+    <p ng-repeat="renglon in datos.renglones" class='okuee-p-text'>
+        <strong>{{renglon.title}}</strong>{{renglon.content}}
     </p>
 </div>
 
