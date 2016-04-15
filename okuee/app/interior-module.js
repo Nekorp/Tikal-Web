@@ -34,10 +34,10 @@ interiorModule.controller('tikal.modules.procesos.tintura.poliester', ['$scope',
         title1: 'Nuestros',
         title2: 'procesos',
         subtitle: 'Contamos con infraestructura y tecnolog\u00EDa de punta',
-        image:'resources/banner-nosotros.jpg'
+        image:'resources/banner-proceso01.jpg'
     };
     $scope.datosContenido={
-        image:'resources/int-img2.jpg',
+        image:'resources/feat-proceso01.jpg',
         imageGraph:'resources/poliester-graph.png',
         subtitle:'Procesos/Tintura en poliester',
         title1: 'Tintura',
@@ -57,10 +57,10 @@ interiorModule.controller('tikal.modules.procesos.tintura.nylon', ['$scope', '$l
         title1: 'Nuestros',
         title2: 'procesos',
         subtitle: 'Contamos con infraestructura y tecnolog\u00EDa de punta',
-        image:'resources/banner-nosotros.jpg'
+        image:'resources/banner-proceso02.jpg'
     };
     $scope.datosContenido={
-        image:'resources/int-img2.jpg',
+        image:'resources/feat-proceso02.jpg',
         imageGraph:'resources/nylon-graph.png',
         subtitle:'Procesos/Tintura en nylon',
         title1: 'Tintura',
@@ -77,10 +77,10 @@ interiorModule.controller('tikal.modules.procesos.tintura.algodon', ['$scope', '
         title1: 'Nuestros',
         title2: 'procesos',
         subtitle: 'Contamos con infraestructura y tecnolog\u00EDa de punta',
-        image:'resources/banner-nosotros.jpg'
+        image:'resources/banner-proceso03.jpg'
     };
     $scope.datosContenido={
-        image:'resources/int-img2.jpg',
+        image:'resources/feat-proceso03.jpg',
         imageGraph:'resources/algodon100-graph.png',
         subtitle:'Procesos/Tintura en algod\u00F3n',
         title1: 'Tintura',
@@ -97,10 +97,10 @@ interiorModule.controller('tikal.modules.procesos.tintura.polialgodon', ['$scope
         title1: 'Nuestros',
         title2: 'procesos',
         subtitle: 'Contamos con infraestructura y tecnolog\u00EDa de punta',
-        image:'resources/banner-nosotros.jpg'
+        image:'resources/banner-proceso04.jpg'
     };  
     $scope.datosContenido={
-        image:'resources/int-img2.jpg',
+        image:'resources/feat-proceso04.jpg',
         imageGraph:'resources/algodon50-graph.png',
         subtitle:'Procesos/Tintura en poliester/algod\u00F3n',
         title1: 'Tintura',
@@ -118,10 +118,10 @@ interiorModule.controller('tikal.modules.procesos.pre-blanqueo', ['$scope', '$lo
         title1: 'Nuestros',
         title2: 'procesos',
         subtitle: 'Contamos con infraestructura y tecnolog\u00EDa de punta',
-        image:'resources/banner-nosotros.jpg'
+        image:'resources/banner-proceso05.jpg'
     };
     $scope.datosContenido={
-        image:'resources/int-img2.jpg',
+        image:'resources/feat-proceso05.jpg',
         imageGraph:'resources/pre-graph.png',
         subtitle:'Pre-blanqueo qu\u00EDmico y blanqueo \u00F3ptico',
         title1: '',
@@ -138,10 +138,10 @@ interiorModule.controller('tikal.modules.procesos.acabado', ['$scope', '$locatio
         title1: 'Nuestros',
         title2: 'procesos',
         subtitle: 'Contamos con infraestructura y tecnolog\u00EDa de punta',
-        image:'resources/banner-nosotros.jpg'
+        image:'resources/banner-proceso06.jpg'
     };
     $scope.datosContenido={
-        image:'resources/int-img2.jpg',
+        image:'resources/feat-proceso06.jpg',
         imageGraph:'',
         subtitle:'Acabado de telas',
         title1: '',
