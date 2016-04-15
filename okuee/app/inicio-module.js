@@ -14,6 +14,6 @@ inicioModule.controller('tikal.modules.inicio.InicioCtrl', ['$scope', '$location
         title1: 'bienvenido',
         title2: "a o'kuee",
         subtitle: 'industria qu\u00edmica mexicana de calidad a su alcance',
-        image:'resources/mt-0189-slider3.jpg'
+        image:'resources/banner-home.jpg'
     };
 }]);
