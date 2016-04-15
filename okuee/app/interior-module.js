@@ -34,12 +34,12 @@ interiorModule.controller('tikal.modules.procesos.tintura.poliester', ['$scope',
         title1: 'Nuestros',
         title2: 'procesos',
         subtitle: 'Contamos con infraestructura y tecnolog\u00EDa de punta',
-        image:'resources/int-img1.jpg'
+        image:'resources/banner-nosotros.jpg'
     };
     $scope.datosContenido={
         image:'resources/int-img2.jpg',
-        imageGraph:'resources/captura.png',
-        subtitle:'Procesos/Tintura de poliester',
+        imageGraph:'resources/poliester-graph.png',
+        subtitle:'Procesos/Tintura en poliester',
         title1: 'Tintura',
         title2: 'en poliester',
         description: 'Nuestros procesos son realizados en nuestras instalaciones que lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
@@ -57,12 +57,12 @@ interiorModule.controller('tikal.modules.procesos.tintura.nylon', ['$scope', '$l
         title1: 'Nuestros',
         title2: 'procesos',
         subtitle: 'Contamos con infraestructura y tecnolog\u00EDa de punta',
-        image:'resources/int-img1.jpg'
+        image:'resources/banner-nosotros.jpg'
     };
     $scope.datosContenido={
         image:'resources/int-img2.jpg',
-        imageGraph:'resources/captura.png',
-        subtitle:'Procesos/Tintura de nylon',
+        imageGraph:'resources/nylon-graph.png',
+        subtitle:'Procesos/Tintura en nylon',
         title1: 'Tintura',
         title2: 'en nylon',
         description: 'Nuestros procesos son realizados en nuestras instalaciones que lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
@@ -77,18 +77,17 @@ interiorModule.controller('tikal.modules.procesos.tintura.algodon', ['$scope', '
         title1: 'Nuestros',
         title2: 'procesos',
         subtitle: 'Contamos con infraestructura y tecnolog\u00EDa de punta',
-        image:'resources/int-img1.jpg'
+        image:'resources/banner-nosotros.jpg'
     };
     $scope.datosContenido={
         image:'resources/int-img2.jpg',
-        imageGraph:'resources/captura.png',
-        subtitle:'Procesos/Tintura de algod\u00F3n',
+        imageGraph:'resources/algodon100-graph.png',
+        subtitle:'Procesos/Tintura en algod\u00F3n',
         title1: 'Tintura',
-        title2: 'en poliester',
+        title2: 'en algod\u00F3n',
         description: 'Nuestros procesos son realizados en nuestras instalaciones que lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
-        renglones: [{title:'OVADET HT2', content:' Proporciona  al género, blancura homogénea en todos los rollos, excelente  hidrofilidad y buena humectación.'},
-                    {title:'OVAL G-30', content:' Agente lubricante ligeramente viscoso utilizable en el baño de tintura, ayudan a la fricción del material, eliminando marcas y reduciendo considerablemente las arrugas.DISPRO DN es un retardan te especial para obtener tinturas bien igualadas con colorantes  tiene una variedad de propiedades exclusivas para retardar el agotamiento y mejorar la migración del colorante. Evita las desigualdades de tinturas producidas por variación de temperaturas en la tintura de fibras acrílicas y nylon, garantiza una subida regular del colorante.'},
-                    {title:'QUELANT 39', content:' Agente secuestran te de iones Fe2+ y Mg2+ presentes en el agua, para dar un ablandamiento eficaz en proceso textil, secuestra 120 ppm por cada gramo que utilice de producto.'}]
+        renglones: [{title:'DISPRO ARS. ', content:'Agentes dispersante evita en gran parte la hidr\u00F3lisis del colorante reactivo, la formaci\u00F3n de precipitados insolubles sobre la fibra, dando una buena dispersi\u00F3n en el te\u00F1ido.'},
+                    {title:'OVADET PT. ', content:'Producto totalmente libre de espuma y de tenso activos. Detergente utilizable \u00FAnicamente en el post-te\u00F1ido, en tinturas de algod\u00F3n y sus mezclas, en cualquier tipo de m\u00E1quinas. Dispersa el color que no reacciona en tiempo de agotamiento, evitando la rede posici\u00F3n en el material, reduciendo las precipitaciones de sales en aguas duras que reaccionan con el color.'}]
     };
 }]);
 
@@ -98,12 +97,12 @@ interiorModule.controller('tikal.modules.procesos.tintura.polialgodon', ['$scope
         title1: 'Nuestros',
         title2: 'procesos',
         subtitle: 'Contamos con infraestructura y tecnolog\u00EDa de punta',
-        image:'resources/int-img1.jpg'
+        image:'resources/banner-nosotros.jpg'
     };  
     $scope.datosContenido={
         image:'resources/int-img2.jpg',
-        imageGraph:'resources/captura.png',
-        subtitle:'Procesos/Tintura de poliester/algod\u00F3n',
+        imageGraph:'resources/algodon50-graph.png',
+        subtitle:'Procesos/Tintura en poliester/algod\u00F3n',
         title1: 'Tintura',
         title2: 'en poliester',
         description: 'Nuestros procesos son realizados en nuestras instalaciones que lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
@@ -119,16 +118,16 @@ interiorModule.controller('tikal.modules.procesos.pre-blanqueo', ['$scope', '$lo
         title1: 'Nuestros',
         title2: 'procesos',
         subtitle: 'Contamos con infraestructura y tecnolog\u00EDa de punta',
-        image:'resources/int-img1.jpg'
+        image:'resources/banner-nosotros.jpg'
     };
     $scope.datosContenido={
         image:'resources/int-img2.jpg',
-        imageGraph:'resources/captura.png',
+        imageGraph:'resources/pre-graph.png',
         subtitle:'Pre-blanqueo qu\u00EDmico y blanqueo \u00F3ptico',
         title1: '',
         title2: 'Pre-blanqueo qu\u00EDmico y blanqueo \u00F3ptico',
         description: 'Nuestros procesos son realizados en nuestras instalaciones que lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
-        renglones: [{title:'OVADET MP5. ', content:'Producto que optimiza el aprovechamiento del per\u00F3xido de hidr\u00F3geno, la sosa junto con el lubricante y el detergente, el uso de este producto no requiere de un secuestrante ni de un estabilizador.'},
+        renglones: [{title:'OVADET MP5. ', content:'Producto que optimiza el aprovechamiento del per\u00F3xido de hidr\u00F3geno, la sosa junto con el lubricante y el detergente, el uso de este producto no requiere             de un secuestrante ni de un estabilizador.'},
                     {title:'OVAZIME CTL. ', content:'Biocatalizador \u00FAtil para lograr la descomposici\u00F3n total del per\u00F3xido de hidr\u00F3geno residual utilizado en el blanqueo de fibras celul\u00F3sicas y sus mezcla'}]
     };
 }]);
@@ -139,32 +138,34 @@ interiorModule.controller('tikal.modules.procesos.acabado', ['$scope', '$locatio
         title1: 'Nuestros',
         title2: 'procesos',
         subtitle: 'Contamos con infraestructura y tecnolog\u00EDa de punta',
-        image:'resources/int-img1.jpg'
+        image:'resources/banner-nosotros.jpg'
     };
     $scope.datosContenido={
         image:'resources/int-img2.jpg',
-        imageGraph:'resources/captura.png',
+        imageGraph:'',
         subtitle:'Acabado de telas',
-        title1: 'Tintura',
-        title2: 'en poliester',
+        title1: '',
+        title2: 'Acabado de telas',
         description: 'Nuestros procesos son realizados en nuestras instalaciones que lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
-        renglones: [{title:'OVADET HT2', content:' Proporciona  al género, blancura homogénea en todos los rollos, excelente  hidrofilidad y buena humectación.'},
-                    {title:'OVAL G-30', content:' Agente lubricante ligeramente viscoso utilizable en el baño de tintura, ayudan a la fricción del material, eliminando marcas y reduciendo considerablemente las arrugas.DISPRO DN es un retardan te especial para obtener tinturas bien igualadas con colorantes  tiene una variedad de propiedades exclusivas para retardar el agotamiento y mejorar la migración del colorante. Evita las desigualdades de tinturas producidas por variación de temperaturas en la tintura de fibras acrílicas y nylon, garantiza una subida regular del colorante.'},
-                    {title:'QUELANT 39', content:' Agente secuestran te de iones Fe2+ y Mg2+ presentes en el agua, para dar un ablandamiento eficaz en proceso textil, secuestra 120 ppm por cada gramo que utilice de producto.'}]
+        renglones: [{title:'ACEPOL 40 CONC. ', content:'Emulsi\u00F3n de acetato de polivinilo al 50% de material activo muy recomendado para lograr acabados de tacto r\u00ECgido.'},
+                    {title:'MICROEMULSI\u00D3N. ', content:'Es un suavizante desarrollado con un activo que proporciona suavidad en el acabado de celulosa, mezclas y todo tipo de telas. No produce amarillamiento y es dispersable, adem\u00E1s contiene una alta hidr\u00F3fila. '},
+                    {title:'OVARES FBL. ', content:'Es una resina, con un componente activo de 37 al 40% que se utiliza como base para la preparaci\u00F3n de pastas de estampado, pudiendo mezclarse con espesantes org\u00E1nicos como son las gomas de origen vegetal o bien con espesantes sint\u00E9ticos, seg\u00FAn la formulaci\u00F3n que se utilice.'},
+                    {title:'OVASOFT SH. ', content:'Copol\u00ECmero patentado de silicona funcional con una estructura de bloque repetitivo que combina varias entidades qu\u00ECmicas en una mol\u00E9cula lineal con una alta calidad en el acabado, confiere hidrofilidad de 2 segundos, proporciona una absorci\u00F3n de 89% y tacto especial en prenda.'},
+                    {title:'EMULSI\u00D3N DE POLIETILENO. ', content:'Suavizante para algod\u00F3n y sus mezclas, por sus caracter\u00ECsticas dan excelente suavidad, proporcionando tactos sedosos y frescos, sin  cambiar los tonos del tejido.'}]
     };
 }]);
 
 interiorModule.controller('tikal.modules.industria.textil', ['$scope', '$location', '$log',
   function ($scope, $location, $log) {
 	$scope.datosHeader={
-        title1: 'Nuestros',
-        title2: 'procesos',
-        subtitle: 'Contamos con infraestructura y tecnolog\u00EDa de punta',
+        title1: 'Divisiones',
+        title2: 'qu\u00EDmicas',
+        subtitle: 'Atendemos las necesidades de la industria',
         image:'resources/banner-textiles.jpg'
     };
     $scope.datosContenido={
         image:'resources/int-img2.jpg',
-        imageGraph:'resources/captura.png',
+        imageGraph:'',
         subtitle:'Industria textil',
         title1: 'Industria',
         title2: 'textil',
@@ -176,9 +177,9 @@ interiorModule.controller('tikal.modules.industria.textil', ['$scope', '$locatio
 interiorModule.controller('tikal.modules.industria.institucional', ['$scope', '$location', '$log',
   function ($scope, $location, $log) {
 	$scope.datosHeader={
-        title1: 'Nuestros',
-        title2: 'procesos',
-        subtitle: 'Contamos con infraestructura y tecnolog\u00EDa de punta',
+        title1: 'Divisiones',
+        title2: 'qu\u00EDmicas',
+        subtitle: 'Atendemos las necesidades de la industria',
         image:'resources/banner-institucional.jpg'
     };
     $scope.datosContenido={
@@ -210,9 +211,9 @@ interiorModule.controller('tikal.modules.industria.institucional', ['$scope', '$
 interiorModule.controller('tikal.modules.industria.quimicos', ['$scope', '$location', '$log',
   function ($scope, $location, $log) {
 	$scope.datosHeader={
-        title1: 'Nuestros',
-        title2: 'procesos',
-        subtitle: 'Contamos con infraestructura y tecnolog\u00EDa de punta',
+        title1: 'Divisiones',
+        title2: 'qu\u00EDmicas',
+        subtitle: 'Atendemos las necesidades de la industria',
         image:'resources/banner-quimicos.jpg'
     };
     $scope.datosContenido={
