@@ -162,6 +162,17 @@ interiorModule.controller('tikal.modules.industria.textil', ['$scope', '$locatio
         subtitle: 'Contamos con infraestructura y tecnolog\u00EDa de punta',
         image:'resources/int-img1.jpg'
     };
+    $scope.datosContenido={
+        image:'resources/int-img2.jpg',
+        imageGraph:'resources/captura.png',
+        subtitle:'Industria textil',
+        title1: 'Industria',
+        title2: 'textil',
+        description: 'Nuestros procesos son realizados en nuestras instalaciones que lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
+        renglones: [{title:'OVADET HT2', content:' Proporciona  al género, blancura homogénea en todos los rollos, excelente  hidrofilidad y buena humectación.'},
+                    {title:'OVAL G-30', content:' Agente lubricante ligeramente viscoso utilizable en el baño de tintura, ayudan a la fricción del material, eliminando marcas y reduciendo considerablemente las arrugas.DISPRO DN es un retardan te especial para obtener tinturas bien igualadas con colorantes  tiene una variedad de propiedades exclusivas para retardar el agotamiento y mejorar la migración del colorante. Evita las desigualdades de tinturas producidas por variación de temperaturas en la tintura de fibras acrílicas y nylon, garantiza una subida regular del colorante.'},
+                    {title:'QUELANT 39', content:' Agente secuestran te de iones Fe2+ y Mg2+ presentes en el agua, para dar un ablandamiento eficaz en proceso textil, secuestra 120 ppm por cada gramo que utilice de producto.'}]
+    };
 }]);
 
 interiorModule.controller('tikal.modules.industria.institucional', ['$scope', '$location', '$log',
@@ -172,6 +183,17 @@ interiorModule.controller('tikal.modules.industria.institucional', ['$scope', '$
         subtitle: 'Contamos con infraestructura y tecnolog\u00EDa de punta',
         image:'resources/int-img1.jpg'
     };
+    $scope.datosContenido={
+        image:'resources/int-img2.jpg',
+        imageGraph:'resources/captura.png',
+        subtitle:'Industria institucional',
+        title1: 'Industria',
+        title2: 'institucional',
+        description: 'Nuestros procesos son realizados en nuestras instalaciones que lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
+        renglones: [{title:'OVADET HT2', content:' Proporciona  al género, blancura homogénea en todos los rollos, excelente  hidrofilidad y buena humectación.'},
+                    {title:'OVAL G-30', content:' Agente lubricante ligeramente viscoso utilizable en el baño de tintura, ayudan a la fricción del material, eliminando marcas y reduciendo considerablemente las arrugas.DISPRO DN es un retardan te especial para obtener tinturas bien igualadas con colorantes  tiene una variedad de propiedades exclusivas para retardar el agotamiento y mejorar la migración del colorante. Evita las desigualdades de tinturas producidas por variación de temperaturas en la tintura de fibras acrílicas y nylon, garantiza una subida regular del colorante.'},
+                    {title:'QUELANT 39', content:' Agente secuestran te de iones Fe2+ y Mg2+ presentes en el agua, para dar un ablandamiento eficaz en proceso textil, secuestra 120 ppm por cada gramo que utilice de producto.'}]
+    };  
 }]);
 
 interiorModule.controller('tikal.modules.industria.quimicos', ['$scope', '$location', '$log',
@@ -181,6 +203,17 @@ interiorModule.controller('tikal.modules.industria.quimicos', ['$scope', '$locat
         title2: 'procesos',
         subtitle: 'Contamos con infraestructura y tecnolog\u00EDa de punta',
         image:'resources/int-img1.jpg'
+    };
+    $scope.datosContenido={
+        image:'resources/int-img2.jpg',
+        imageGraph:'resources/captura.png',
+        subtitle:'Industria qu\u00EDmica',
+        title1: 'Industria',
+        title2: 'qu\u00EDmica',
+        description: 'Nuestros procesos son realizados en nuestras instalaciones que lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
+        renglones: [{title:'OVADET HT2', content:' Proporciona  al género, blancura homogénea en todos los rollos, excelente  hidrofilidad y buena humectación.'},
+                    {title:'OVAL G-30', content:' Agente lubricante ligeramente viscoso utilizable en el baño de tintura, ayudan a la fricción del material, eliminando marcas y reduciendo considerablemente las arrugas.DISPRO DN es un retardan te especial para obtener tinturas bien igualadas con colorantes  tiene una variedad de propiedades exclusivas para retardar el agotamiento y mejorar la migración del colorante. Evita las desigualdades de tinturas producidas por variación de temperaturas en la tintura de fibras acrílicas y nylon, garantiza una subida regular del colorante.'},
+                    {title:'QUELANT 39', content:' Agente secuestran te de iones Fe2+ y Mg2+ presentes en el agua, para dar un ablandamiento eficaz en proceso textil, secuestra 120 ppm por cada gramo que utilice de producto.'}]
     };
 }]);
 
