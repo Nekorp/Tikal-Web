@@ -88,3 +88,31 @@ sub-Titulo
 .okuee-image-container {
     padding-left: 10px;
 }
+
+.okuee-footer-line {
+        margin-top: 100px;
+        height: 100px;
+        background-color: #105677;
+}
+
+.okuee-footer {
+    padding-top: 30px;
+    padding-right: 50px;
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 10px;
+    text-align: right;
+}
+
+.okuee-footer-mail {
+    padding-right: 145px;
+    font-family: 'Montserrat';
+    color: #fff;
+    font-size: 9px;
+    text-align: right;
+}
+
+.okuee-img-bottom {
+    padding-top: 20px;
+}
