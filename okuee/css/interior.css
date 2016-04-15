@@ -35,6 +35,7 @@ sub-Titulo
     padding-top: 19px;
     padding-bottom: 12px;
     padding-left: 15px;
+    padding-right: 15px;
 }
 
 /* subtitulo en el contenido interior*/
@@ -106,7 +107,7 @@ sub-Titulo
 }
 
 .okuee-footer-mail {
-    padding-right: 145px;
+    padding-right: 138px;
     font-family: 'Montserrat';
     color: #fff;
     font-size: 9px;
