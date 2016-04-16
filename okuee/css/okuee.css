@@ -1,52 +1,51 @@
-
-/* navbar */
-.navbar {
-    background-color: #FFF;
-}
-
-.navbar-default {
-    background-color: #FFF;
-}
-
-.navbar-right {
-    margin-right: 0px;
-}
-
-
-.navbar-default .navbar-nav > li > a:hover,
-.navbar-default .navbar-nav > li > a:focus {
-    color: #555555;
-    background-color: #ebebeb;
-}
-.navbar-default .navbar-nav > .active > a, 
-.navbar-default .navbar-nav > .active > a:hover, 
-.navbar-default .navbar-nav > .active > a:focus {
-    color: #FFF;
-    background-color: #6aab35;
-}
-
-.navbar-default .navbar-nav > .open > a, 
-.navbar-default .navbar-nav > .open > a:hover, 
-.navbar-default .navbar-nav > .open > a:focus {
-    color: #555555;
-    background-color: #ebebeb;
-}
-
-.dropdown-menu > li > a:hover,
-.dropdown-menu > li > a:focus {
-    background-color: #d7d7d7;
-}
-
-.dropdown-menu > .active > a,
-.dropdown-menu > .active > a:focus,
-.dropdown-menu > .active > a:hover {
-    color: #555555;
-    text-decoration: none;
-    background-color: #d7d7d7;
-    outline: 0;
-}
-
 @media (min-width: 992px) {
+    
+    /* navbar */
+    .navbar {
+        background-color: #FFF;
+    }
+
+    .navbar-default {
+        background-color: #FFF;
+    }
+
+    .navbar-right {
+        margin-right: 0px;
+    }
+
+
+    .navbar-default .navbar-nav > li > a:hover,
+    .navbar-default .navbar-nav > li > a:focus {
+        color: #555555;
+        background-color: #ebebeb;
+    }
+    .navbar-default .navbar-nav > .active > a, 
+    .navbar-default .navbar-nav > .active > a:hover, 
+    .navbar-default .navbar-nav > .active > a:focus {
+        color: #FFF;
+        background-color: #6aab35;
+    }
+
+    .navbar-default .navbar-nav > .open > a, 
+    .navbar-default .navbar-nav > .open > a:hover, 
+    .navbar-default .navbar-nav > .open > a:focus {
+        color: #555555;
+        background-color: #ebebeb;
+    }
+
+    .dropdown-menu > li > a:hover,
+    .dropdown-menu > li > a:focus {
+        background-color: #d7d7d7;
+    }
+
+    .dropdown-menu > .active > a,
+    .dropdown-menu > .active > a:focus,
+    .dropdown-menu > .active > a:hover {
+        color: #555555;
+        text-decoration: none;
+        background-color: #d7d7d7;
+        outline: 0;
+    }
     
     .logo-nav{display:block;width:100%;}
     
@@ -132,6 +131,53 @@
 
 @media (max-width: 992px) {
     
+    /* navbar */
+    .navbar {
+        background-color: #FFF;
+    }
+
+    .navbar-default {
+        background-color: #FFF;
+    }
+
+    .navbar-right {
+        margin-right: 0px;
+    }
+
+
+    .navbar-default .navbar-nav > li > a:hover,
+    .navbar-default .navbar-nav > li > a:focus {
+        color: #555555;
+        background-color: #ebebeb;
+    }
+    .navbar-default .navbar-nav > .active > a, 
+    .navbar-default .navbar-nav > .active > a:hover, 
+    .navbar-default .navbar-nav > .active > a:focus {
+        color: #FFF;
+        background-color: #6aab35;
+    }
+
+    .navbar-default .navbar-nav > .open > a, 
+    .navbar-default .navbar-nav > .open > a:hover, 
+    .navbar-default .navbar-nav > .open > a:focus {
+        color: #555555;
+        background-color: #ebebeb;
+    }
+
+    .dropdown-menu > li > a:hover,
+    .dropdown-menu > li > a:focus {
+        background-color: #d7d7d7;
+    }
+
+    .dropdown-menu > .active > a,
+    .dropdown-menu > .active > a:focus,
+    .dropdown-menu > .active > a:hover {
+        color: #555555;
+        text-decoration: none;
+        background-color: #d7d7d7;
+        outline: 0;
+    }
+    
     .logo-nav{display:block;width:75%;}
     
     body {
@@ -213,7 +259,111 @@
         height: 8px;
         background-color: #105677;
     }
+}
 
+@media (max-width: 768px) {
+    .logo-nav{
+        display:block;
+        width:45%;}
+    
+    .okuee-menu-button{
+        background-color: #105677;
+    }
+    
+    .navbar-inverse .navbar-toggle:focus, 
+    .navbar-inverse .navbar-toggle:hover {
+        background-color: #d7d7d7;
+    }
+    
+    .container-header {
+        padding-left: 0px;
+        padding-right: 0px;
+        height: 55px;
+        background-color: #fff;
+    }
+    
+    .navbar-inverse {
+        border-bottom-color: #105677;
+        border-bottom-width: 8px;
+        /*width: 1200px;*/
+    }
+    
+    .container>.navbar-header {
+        margin-right: 0px;
+    }
+    
+    .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+        background-color: #ebebeb;
+    }
+    
+    .navbar-inverse .navbar-nav>li>a {
+        color: #555555;
+        font-size: 14px;
+        padding-left: 25px
+    }
+    
+    .dropdown-menu>li>a {
+        font-size: 12px;
+        
+    }
+    .navbar-nav .open .dropdown-menu .dropdown-header, 
+    .navbar-nav .open .dropdown-menu>li>a {
+        padding: 5px 15px 5px 40px;
+    }
+    
+    .navbar-inverse .navbar-nav >.active > a, 
+    .navbar-inverse .navbar-nav >.active > a:focus, 
+    .navbar-inverse .navbar-nav >.active > a:hover {
+        color: #FFF;
+        background-color: #6aab35;
+    }
+
+    .navbar-inverse .navbar-nav>li>a:focus,
+    .navbar-inverse .navbar-nav>li>a:hover {
+        color: #555555;
+        background-color: #d7d7d7;
+    }
+    
+    
+    
+    .navbar-inverse .navbar-nav>.open>a, 
+    .navbar-inverse .navbar-nav>.open>a:focus, 
+    .navbar-inverse .navbar-nav>.open>a:hover {
+       color: #555555;
+       background-color: #ebebeb;
+    }
+    
+    .navbar-inverse .navbar-nav .open .dropdown-menu>li>a {
+        color: #555555;
+        background-color: #ebebeb;
+    }
+    
+    .navbar-inverse .navbar-nav .open .dropdown-menu>li>a:hover,
+    .navbar-inverse .navbar-nav .open .dropdown-menu>li>a:focus {
+        background-color: #d7d7d7;
+    }
+    
+    .navbar-inverse .navbar-nav .open .dropdown-menu>.active>a, 
+    .navbar-inverse .navbar-nav .open .dropdown-menu>.active>a:focus, 
+    .navbar-inverse .navbar-nav .open .dropdown-menu>.active>a:hover {
+        color: #555555;
+        background-color: #d7d7d7;
+    }
+    
+    .dropdown-menu .divider {
+        margin: 0;
+        height: 0;
+    }
+    
+    .okuee-menu-line {
+        
+        height: 8px;
+        background-color: #105677;
+        margin-top: -8px;
+    }
+    
+    
+    
 }
 
 p {
