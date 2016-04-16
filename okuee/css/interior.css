@@ -122,7 +122,7 @@ sub-Titulo
     }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 499px) {
     .okuee-footer {
     padding-top: 30px;
     font-weight: bold;

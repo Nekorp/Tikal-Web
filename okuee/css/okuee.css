@@ -1,21 +1,60 @@
+
+/* navbar */
+.navbar {
+    background-color: #FFF;
+}
+
+.navbar-default {
+    background-color: #FFF;
+}
+
+.navbar-right {
+    margin-right: 0px;
+}
+
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #555555;
+    background-color: #ebebeb;
+}
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #FFF;
+    background-color: #6aab35;
+}
+
+.navbar-default .navbar-nav > .open > a, 
+.navbar-default .navbar-nav > .open > a:hover, 
+.navbar-default .navbar-nav > .open > a:focus {
+    color: #555555;
+    background-color: #ebebeb;
+}
+
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+    background-color: #d7d7d7;
+}
+
+.dropdown-menu > .active > a,
+.dropdown-menu > .active > a:focus,
+.dropdown-menu > .active > a:hover {
+    color: #555555;
+    text-decoration: none;
+    background-color: #d7d7d7;
+    outline: 0;
+}
+
 @media (min-width: 992px) {
+    
+    .logo-nav{display:block;width:100%;}
+    
     body {
       padding-top: 92px;
       overflow-y: scroll;
     }
-    /* navbar */
-    .navbar {
-        background-color: #FFF;
-    }
-
-    .navbar-default {
-        background-color: #FFF;
-    }
-    
-    .navbar-right {
-        margin-right: 0px;
-    }
-
+   
     /* link */
     .navbar-default .navbar-nav > li > a {
         color: #555555;
@@ -27,24 +66,7 @@
         padding-top: 52px;
         text-align: center;
     }
-    .navbar-default .navbar-nav > li > a:hover,
-    .navbar-default .navbar-nav > li > a:focus {
-        color: #555555;
-        background-color: #ebebeb;
-    }
-    .navbar-default .navbar-nav > .active > a, 
-    .navbar-default .navbar-nav > .active > a:hover, 
-    .navbar-default .navbar-nav > .active > a:focus {
-        color: #FFF;
-        background-color: #6aab35;
-    }
-
-    .navbar-default .navbar-nav > .open > a, 
-    .navbar-default .navbar-nav > .open > a:hover, 
-    .navbar-default .navbar-nav > .open > a:focus {
-        color: #555555;
-        background-color: #ebebeb;
-    }
+    
 
     .dropdown-menu > li > a {
         height: 100%;
@@ -52,19 +74,7 @@
         padding-bottom: 0px;
     }
 
-    .dropdown-menu > li > a:hover,
-    .dropdown-menu > li > a:focus {
-        background-color: #d7d7d7;
-    }
-
-    .dropdown-menu > .active > a,
-    .dropdown-menu > .active > a:focus,
-    .dropdown-menu > .active > a:hover {
-        color: #555555;
-        text-decoration: none;
-        background-color: #d7d7d7;
-        outline: 0;
-    }
+    
 
     .navbar-nav > li > .dropdown-menu {
         /*min-width: 133px;*/
@@ -118,6 +128,92 @@
         height: 8px;
         background-color: #105677;
     }
+}
+
+@media (max-width: 992px) {
+    
+    .logo-nav{display:block;width:75%;}
+    
+    body {
+      padding-top: 72px;
+      overflow-y: scroll;
+    }
+    
+    /* link */
+    .navbar-default .navbar-nav > li > a {
+        color: #555555;
+        height: 64px;
+        width: 100px;
+        font-size: 12px;
+        text-transform: uppercase;
+        /*font-weight: bold;*/
+        font-family: 'Montserrat';
+        padding-top: 30px;
+        text-align: center;
+    }
+    
+
+    .dropdown-menu > li > a {
+        height: 100%;
+        padding-top: 8px;
+        padding-bottom: 0px;
+    }
+
+    
+
+    .navbar-nav > li > .dropdown-menu {
+        /*min-width: 133px;*/
+        padding: 0px;
+        background-color: #ebebeb;
+        border: 0px;
+        margin-top: 8px;
+        border-radius: 0px;
+        box-shadow: none;
+    }
+
+    .okuee-dropdown-li {
+        height: 25px;
+        font-size: 10px;
+        font-family: 'Montserrat';
+        text-transform: uppercase;
+        border-bottom: 1px;
+        border-bottom-color: #d7d7d7;
+    }
+
+    .dropdown-menu .divider {
+        height: 1px;
+        margin: 0px;
+        overflow: hidden;
+        background-color: #d7d7d7;
+    }
+
+    .navbar-inverse {
+        border-bottom-color: #105677;
+        border-bottom-width: 0px;
+        /*width: 1200px;*/
+    }
+
+    .container-header {
+        padding-left: 0px;
+        padding-right: 0px;
+        height: 64px;
+    }
+
+    .okuee-nav {
+        padding-top: 50px;
+    }
+
+    .okuee-logo {
+        padding-top: 8px;
+        padding-left: 45px;
+    }
+    
+    .okuee-menu-line {
+        margin-top: 64px;
+        height: 8px;
+        background-color: #105677;
+    }
+
 }
 
 p {
