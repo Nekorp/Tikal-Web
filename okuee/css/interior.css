@@ -96,24 +96,50 @@ sub-Titulo
         background-color: #105677;
 }
 
-.okuee-footer {
+
+
+.okuee-img-footer {
+    padding-top: 20px;
+}
+
+@media (min-width: 500px) {
+    .okuee-footer {
+        padding-top: 30px;
+        font-weight: bold;
+        font-family: 'Montserrat';
+        text-transform: uppercase;
+        color: #fff;
+        font-size: 10px;
+        text-align: left;
+    }
+
+    .okuee-footer-mail {
+
+        font-family: 'Montserrat';
+        color: #fff;
+        font-size: 10px;
+        text-align: left;
+    }
+}
+
+@media (max-width: 500px) {
+    .okuee-footer {
     padding-top: 30px;
-    padding-right: 50px;
+    font-weight: bold;
     font-family: 'Montserrat';
     text-transform: uppercase;
     color: #fff;
-    font-size: 10px;
-    text-align: right;
+    font-size: 8px;
+    text-align: left;
+    }
+
+    .okuee-footer-mail {
+        font-family: 'Montserrat';
+        color: #fff;
+        font-size: 8px;
+        text-align: left;
+    }
+    
 }
 
-.okuee-footer-mail {
-    padding-right: 138px;
-    font-family: 'Montserrat';
-    color: #fff;
-    font-size: 9px;
-    text-align: right;
-}
 
-.okuee-img-bottom {
-    padding-top: 20px;
-}
