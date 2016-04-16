@@ -1,0 +1,19 @@
+<div class="row inicio-descripcion">
+    <div class="col-md-8">
+        <p class="okuee-p-text1">
+            {{contenido.descripcion}}
+        </p>
+    </div>
+    <div class="col-md-4 inicio-descripcion-recuadro">
+        <p class="inicio-featured-title"><strong>{{contenido.recuadro.titulo}}</strong></p>
+        <p class="inicio-recuadro-text" ng-repeat-start="item in contenido.recuadro.contenido">
+            <strong>{{item.titulo}}</strong>
+        </p>
+        <p class="inicio-recuadro-text" ng-if="item.isLink">
+            <a href="{{item.descripcion}}" target="_top">{{item.descripcion}}</a>
+        </p>
+        <p class="inicio-recuadro-text" ng-if="!item.isLink" ng-bind-html="item.descripcion"></p>
+        <br ng-repeat-end>
+        <a class="inicio-featured-link" href="{{contenido.recuadro.link}}">&raquo;{{contenido.recuadro.linktext}}</a>
+    </div>
+</div>
