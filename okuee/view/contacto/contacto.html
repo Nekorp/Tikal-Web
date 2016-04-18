@@ -8,30 +8,32 @@
 <div class="inicio-contenido">
     <div class="row inicio-descripcion-contacto">
         <div class="col-md-8">
-            <form>
-                <div class="form-group">
-                    <label for="Nombre">NOMBRE</label>
-                    <input type="text" class="form-control" id="nombre">
-                </div>
-                <div class="form-group">
-                    <label for="email">EMAIL</label>
-                    <input type="email" class="form-control" id="email">
-                </div>
-                <div class="form-group">
-                    <label for="Nombre">TEL&Eacute;FONO</label>
-                    <input type="text" class="form-control" id="telefono">
-                </div>
-                <div class="form-group">
-                    <label for="Nombre">ASUNTO</label>
-                    <input type="text" class="form-control" id="asunto">
-                </div>
-                <div class="form-group">
-                    <label for="Nombre">MENSAJE</label>
-                    <textarea class="form-control" rows="8" id="mensaje"></textarea>
-                </div>
-                <button type="submit" class="btn btn-default btn-lg pull-right contacto-form-button contacto-form-button-margin">ENVIAR</button>
-                <button type="button" class="btn btn-default btn-lg pull-right contacto-form-button">BORRAR</button>
-            </form>
+            <div class="contacto-formulario">
+                <form>
+                    <div class="form-group">
+                        <label for="Nombre">NOMBRE</label>
+                        <input type="text" class="form-control" id="nombre">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">EMAIL</label>
+                        <input type="email" class="form-control" id="email">
+                    </div>
+                    <div class="form-group">
+                        <label for="Nombre">TEL&Eacute;FONO</label>
+                        <input type="text" class="form-control" id="telefono">
+                    </div>
+                    <div class="form-group">
+                        <label for="Nombre">ASUNTO</label>
+                        <input type="text" class="form-control" id="asunto">
+                    </div>
+                    <div class="form-group">
+                        <label for="Nombre">MENSAJE</label>
+                        <textarea class="form-control" rows="8" id="mensaje"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-default btn-lg pull-right contacto-form-button contacto-form-button-margin">ENVIAR</button>
+                    <button type="button" class="btn btn-default btn-lg pull-right contacto-form-button">BORRAR</button>
+                </form>
+            </div>
         </div>
         <div class="col-md-4">
             <okuee-recuadro-contacto datos="datosRecuadro"></okuee-recuadro-contacto>

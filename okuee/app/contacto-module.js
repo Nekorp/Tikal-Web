@@ -20,10 +20,10 @@ contactoModule.controller('tikal.modules.contacto.ContactoCtrl', ['$scope', '$lo
   function ($scope, $location, $log) {
     $scope.subtitle='contacto';
     $scope.datosHeader = {
-        title1: 'acerca de',
-        title2: "o'kuee",
-        subtitle: 'industria qu\u00edmica mexicana de calidad a su alcance',
-        image:'resources/banner-nosotros1.jpg'
+        title1: 'contáctanos',
+        title2: "",
+        subtitle: 'en okuee factoría química estamos para escucharte',
+        image:'resources/banner-contacto.jpg'
     };
     $scope.datosRecuadro = {
         titulo: "Datos del Contacto",
