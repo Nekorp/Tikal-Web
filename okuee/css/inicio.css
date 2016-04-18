@@ -5,7 +5,12 @@
 .inicio-descripcion {
     padding-top: 71px;
     padding-bottom: 66px;
-    margin-right: 0px;
+    /*margin-right: 0px;*/
+}
+
+.inicio-descripcion-contacto {
+    padding-bottom: 66px;
+    /*margin-right: 0px;*/
 }
 
 .inicio-descripcion-recuadro {
@@ -111,3 +116,13 @@
     font-size: 11px;
 }
 
+.contacto-form-button {
+    border-radius: 0px;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: #6aab35;
+    color: #fff;
+}
+.contacto-form-button-margin { 
+    margin-left: 15px; 
+}

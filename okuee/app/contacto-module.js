@@ -18,13 +18,7 @@ contactoModule.config(function ($routeProvider, $httpProvider) {
 
 contactoModule.controller('tikal.modules.contacto.ContactoCtrl', ['$scope', '$location', '$log',
   function ($scope, $location, $log) {
-    $scope.map = { 
-            center: { 
-                latitude: 19.3139794,
-                longitude: -99.6218243
-            }, 
-            zoom: 8 
-    };
+    $scope.subtitle='contacto';
     $scope.datosHeader = {
         title1: 'acerca de',
         title2: "o'kuee",
