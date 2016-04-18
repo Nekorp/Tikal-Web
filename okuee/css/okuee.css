@@ -375,3 +375,8 @@ body{
 p {
     margin: 0 0 10px 10px;
 }
+
+.okuee-map {
+    display: block;
+    height: 500px;
+}

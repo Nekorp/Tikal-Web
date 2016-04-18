@@ -17,9 +17,9 @@ inicioModule.controller('tikal.modules.inicio.InicioCtrl', ['$scope', '$location
         image:'resources/banner-home.jpg'
     };
     $scope.datosIntro = {
-        descripcion: 'Somos una factoría química mexicana que lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur',
+        descripcion: 'Empresa formada por 100% de inversión mexicana que día a día va avanzando con paso firme en la industria nacional con investigación continua y métodos de fabricación que beneficien la producción en ruta para la optimización en todos los ámbitos garantizando a nuestros clientes el compromiso de un objetivo común.',
         recuadro: {
-            titulo: "Contacta con o'kuee",
+            titulo: "Datos del Contacto",
             link: '#/contacto',
             linktext: 'Escríbenos en nuestro formulario de contacto',
             contenido: [
@@ -49,13 +49,13 @@ inicioModule.controller('tikal.modules.inicio.InicioCtrl', ['$scope', '$location
     $scope.headerFeatDivisiones = {
         title1: 'divisiones',
         title2: "químicas",
-        subtitle: 'atendemos a las necesidades de la industria'
+        subtitle: 'atendemos a las necesidades de la industria',
+        image:false
     };
     $scope.featuredDivisiones = {
         features: [
             {
-                style:'',
-                imagen: 'resources/featured04.jpg',
+                imagen: 'resources/featured01.jpg',
                 titulo: 'Textil',
                 texto: 'lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
                 link: {
@@ -64,8 +64,7 @@ inicioModule.controller('tikal.modules.inicio.InicioCtrl', ['$scope', '$location
                 }
             },
             {
-                style:'',
-                imagen: 'resources/featured05.jpg',
+                imagen: 'resources/featured02.jpg',
                 titulo: 'Institucional',
                 texto: 'lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
                 link: {
@@ -74,8 +73,7 @@ inicioModule.controller('tikal.modules.inicio.InicioCtrl', ['$scope', '$location
                 }
             },
             {
-                style:'',
-                imagen: 'resources/featured06.jpg',
+                imagen: 'resources/featured03.jpg',
                 titulo: 'Químicos',
                 texto: 'lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
                 link: {
@@ -85,11 +83,16 @@ inicioModule.controller('tikal.modules.inicio.InicioCtrl', ['$scope', '$location
             }
         ]
     };
-    $scope.featuredProcesos = {
+    $scope.headerFeatProcesos = {
+        title1: 'nuestros',
+        title2: 'procesos',
+        subtitle: 'contamos con infraestructura y tecnologia de punta',
+        image:false
+    };
+    $scope.featuredProcesosA = {
         features: [
             {
-                style:'',
-                imagen: 'resources/featured01.jpg',
+                imagen: 'resources/feat-proceso01.jpg',
                 titulo: 'Tintura en poliester',
                 texto: 'lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
                 link: {
@@ -98,8 +101,7 @@ inicioModule.controller('tikal.modules.inicio.InicioCtrl', ['$scope', '$location
                 }
             },
             {
-                style:'',
-                imagen: 'resources/featured02.jpg',
+                imagen: 'resources/feat-proceso02.jpg',
                 titulo: 'Tintura en nylon',
                 texto: 'lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
                 link: {
@@ -108,9 +110,8 @@ inicioModule.controller('tikal.modules.inicio.InicioCtrl', ['$scope', '$location
                 }
             },
             {
-                style:'',
-                imagen: 'resources/featured03.jpg',
-                titulo: 'Tintura en algodon 100%',
+                imagen: 'resources/feat-proceso03.jpg',
+                titulo: 'Tintura en algodón 100%',
                 texto: 'lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
                 link: {
                     display:'leer más',
@@ -119,24 +120,35 @@ inicioModule.controller('tikal.modules.inicio.InicioCtrl', ['$scope', '$location
             }
         ]
     };
+    $scope.featuredProcesosB = {
+        features: [
+            {
+                imagen: 'resources/feat-proceso04.jpg',
+                titulo: 'Tintura en poliester/algodón',
+                texto: 'lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+                link: {
+                    display:'leer más',
+                    uri:'#/procesos/tintura/polialgodon'
+                }
+            },
+            {
+                imagen: 'resources/feat-proceso05.jpg',
+                titulo: 'Pre-blanqueo químico y blanqueo óptico',
+                texto: 'lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+                link: {
+                    display:'leer más',
+                    uri:'#/procesos/pre-blanqueo'
+                }
+            },
+            {
+                imagen: 'resources/feat-proceso06.jpg',
+                titulo: 'Acabado de telas',
+                texto: 'lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+                link: {
+                    display:'leer más',
+                    uri:'#/procesos/acabado'
+                }
+            }
+        ]
+    };
 }]);
-
-inicioModule.directive('okueeDescripcion', function() {
-  return {
-    restrict: 'E',
-    scope: {
-      contenido: '=contenido'
-    },
-    templateUrl: 'view/inicio/inicio-descripcion.html'
-  };
-});
-
-inicioModule.directive('okueeFeature', function() {
-  return {
-    restrict: 'E',
-    scope: {
-      contenido: '=contenido'
-    },
-    templateUrl: 'view/inicio/feature-content.html'
-  };
-});
