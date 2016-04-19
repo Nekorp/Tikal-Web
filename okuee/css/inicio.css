@@ -119,6 +119,7 @@
 .contacto-formulario {
     padding-left: 15px;
 }
+
 .contacto-form-button {
     padding: 12px 35px 12px 35px;
     border-radius: 0px;
@@ -128,6 +129,82 @@
     background-color: #6aab35;
     color: #fff;
 }
+
 .contacto-form-button-margin { 
     margin-left: 15px;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #6aab35;
+    border-color: #6aab35;
+}
+
+.btn-primary:focus,
+.btn-primary.focus {
+    color: #fff;
+    background-color: #286090;
+    border-color: #122b40;
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: #6aab35;
+    border-color: #6aab35;
+}
+.btn-primary:active,
+.btn-primary.active,
+.open > .dropdown-toggle.btn-primary {
+    color: #fff;
+    background-color: #6aab35;
+    border-color: #6aab35;
+}
+
+.btn-primary:active:hover,
+.btn-primary.active:hover,
+.open > .dropdown-toggle.btn-primary:hover,
+.btn-primary:active:focus,
+.btn-primary.active:focus,
+.open > .dropdown-toggle.btn-primary:focus,
+.btn-primary:active.focus,
+.btn-primary.active.focus,
+.open > .dropdown-toggle.btn-primary.focus {
+    color: #fff;
+    background-color: #6aab35;
+    border-color: #6aab35;
+}
+.btn-primary:active,
+.btn-primary.active,
+.open > .dropdown-toggle.btn-primary {
+    color: #fff;
+    background-color: #6aab35;
+    border-color: #6aab35;
+}
+
+.btn-primary.disabled:hover,
+.btn-primary[disabled]:hover,
+fieldset[disabled] .btn-primary:hover,
+.btn-primary.disabled:focus,
+.btn-primary[disabled]:focus,
+fieldset[disabled] .btn-primary:focus,
+.btn-primary.disabled.focus,
+.btn-primary[disabled].focus,
+fieldset[disabled] .btn-primary.focus {
+    color: #fff;
+    background-color: #6aab35;
+    border-color: #6aab35;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active {
+    color: #fff;
+    background-color: #6aab35;
+    border-color: #6aab35;
+}
+
+.btn-primary .badge {
+    color: #fff;
+    background-color: #6aab35;
+    border-color: #6aab35;
 }
