@@ -134,6 +134,10 @@
     margin-left: 15px;
 }
 
+.contacto-form { 
+    height: 44px;
+}
+
 .btn-primary {
     color: #fff;
     background-color: #6aab35;

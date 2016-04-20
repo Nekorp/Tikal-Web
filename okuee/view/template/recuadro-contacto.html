@@ -4,7 +4,7 @@
         <strong>{{item.titulo}}</strong>
     </p>
     <p class="inicio-recuadro-text" ng-if="item.isLink">
-        <a href="{{item.descripcion}}" target="_top">{{item.descripcion}}</a>
+        <a href="{{item.link}}" target="_top">{{item.descripcion}}</a>
     </p>
     <p class="inicio-recuadro-text" ng-if="!item.isLink" ng-bind-html="item.descripcion"></p>
     <br ng-repeat-end>

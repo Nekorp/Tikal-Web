@@ -53,7 +53,8 @@ contactoModule.controller('tikal.modules.contacto.ContactoCtrl', ['$scope', '$re
             {
                 isLink:true,
                 titulo:'POR MAIL',
-                descripcion:'info@okuee.com'
+                descripcion:'info@okuee.com',
+                link:'mailto:info@okuee.com'
             }
         ]
     };
@@ -79,6 +80,7 @@ contactoModule.controller('tikal.modules.contacto.ContactoCtrl', ['$scope', '$re
         $scope.alerts = [];
     };
     $scope.submit = function () {
+        $scope.alerts = [];
         if (!$scope.modelo.captchaValue) {
             $scope.alerts.push({msg: 'Capture el captcha', type:'danger'});
             return;
@@ -86,7 +88,6 @@ contactoModule.controller('tikal.modules.contacto.ContactoCtrl', ['$scope', '$re
         var valid;
         //console.log('sending the captcha response to the server', $scope.response);
         $scope.cargando = true;
-        $scope.alerts = [];
         $scope.servicioContacto.save({}, $scope.modelo).$promise.then(
             function(data) {
                 $scope.response = null;
@@ -94,16 +95,15 @@ contactoModule.controller('tikal.modules.contacto.ContactoCtrl', ['$scope', '$re
                 $scope.modelo = {};
                 $scope.cargando = false;
                 $scope.alerts.push({msg: 'Gracias por contactarte con nosotros.', type:'success'});
-                //avisar que jalo
             },
             function(errResponse) {
                 if (errResponse.status == 403) {
                     $scope.alerts.push({msg: 'Fallo al resolver el captcha.', type:'danger'});
+                } else {
+                    $scope.alerts.push({msg: 'Lo sentimos tu mensaje no pudo ser enviado, intentelo mas tarde.', type:'danger'});    
                 }
-                $scope.alerts.push({msg: 'Lo sentimos tu mensaje no pudo ser enviado, intentelo mas tarde.', type:'danger'});
                 $scope.response = null;
                 vcRecaptchaService.reload($scope.widgetId);
-                //avisar que no jalo
                 $scope.cargando = false;
         });
     };

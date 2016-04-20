@@ -41,7 +41,8 @@ inicioModule.controller('tikal.modules.inicio.InicioCtrl', ['$scope', '$location
                 {
                     isLink:true,
                     titulo:'POR MAIL',
-                    descripcion:'info@okuee.com'
+                    descripcion:'info@okuee.com',
+                    link:'mailto:info@okuee.com'
                 }
             ]
         }
@@ -57,7 +58,7 @@ inicioModule.controller('tikal.modules.inicio.InicioCtrl', ['$scope', '$location
             {
                 imagen: 'resources/featured01.jpg',
                 titulo: 'Textil',
-                texto: 'lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+                texto: 'Industria dedicada a la fabricaci\u00F3n y acabado de telas.',
                 link: {
                     display:'leer más',
                     uri:'#/industria/textil'
@@ -66,7 +67,7 @@ inicioModule.controller('tikal.modules.inicio.InicioCtrl', ['$scope', '$location
             {
                 imagen: 'resources/featured02.jpg',
                 titulo: 'Institucional',
-                texto: 'lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+                texto: 'Industria dedicada al desarrollo de productos para el cuidado del hogar, cuidado personal, limpieza industrial, y alimentaria. cumple con las necesidades del consumidor y el medio ambiente.',
                 link: {
                     display:'leer más',
                     uri:'#/industria/institucional'
@@ -75,7 +76,7 @@ inicioModule.controller('tikal.modules.inicio.InicioCtrl', ['$scope', '$location
             {
                 imagen: 'resources/featured03.jpg',
                 titulo: 'Químicos',
-                texto: 'lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+                texto: 'Industria dedicada a la transformaci\u00F3n de sustancias naturales y sint\u00E9ticas.',
                 link: {
                     display:'leer más',
                     uri:'#/industria/quimicos'

@@ -41,7 +41,8 @@ nostrosModule.controller('tikal.modules.nosotros.NosotrosCtrl', ['$scope', '$loc
                 {
                     isLink:true,
                     titulo:'POR MAIL',
-                    descripcion:'info@okuee.com'
+                    descripcion:'info@okuee.com',
+                    link:'mailto:info@okuee.com'
                 }
             ]
         }

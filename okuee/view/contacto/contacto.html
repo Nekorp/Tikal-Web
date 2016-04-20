@@ -31,10 +31,13 @@
                         <textarea class="form-control" rows="8" ng-class="{'has-error': form.nombre.$invalid}" id="mensaje" ng-model="modelo.mensaje" required></textarea>
                     </div>
                     <uib-alert ng-repeat="alert in alerts" type="{{alert.type}}" close="closeAlert($index)">{{alert.msg}}</uib-alert>
-                    <div vc-recaptcha theme="'light'" key="model.key" on-create="setWidgetId(widgetId)" on-success="setResponse(response)"></div>
-                    <button type="submit" class="btn btn-primary btn-lg pull-right contacto-form-button contacto-form-button-margin" 
-                            ng-disabled="form.$invalid || form.$pristine || cargando" ladda="cargando" data-style="expand-left">ENVIAR</button>
-                    <button type="button" class="btn btn-primary btn-lg pull-right contacto-form-button" ng-disabled="form.$pristine || cargando"  ng-click="borrar()">BORRAR</button>
+                    <div class="form-group">
+                        <div vc-recaptcha theme="'light'" key="model.key" on-create="setWidgetId(widgetId)" on-success="setResponse(response)"></div>
+                    </div>
+                    <div class="form-group contacto-form">
+                        <button type="submit" class="btn btn-primary btn-lg contacto-form-button pull-right contacto-form-button-margin" ng-disabled="form.$invalid || form.$pristine || cargando" ladda="cargando" data-style="expand-left">ENVIAR</button>
+                        <button type="button" class="btn btn-primary btn-lg contacto-form-button pull-right" ng-disabled="form.$pristine || cargando"  ng- click="borrar()">BORRAR</button>
+                    </div>
                 </form>
             </div>
         </div>
