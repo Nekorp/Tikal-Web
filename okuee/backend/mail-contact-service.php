@@ -2,9 +2,8 @@
     $result;
     $response;
     $inputJSON=file_get_contents('php://input');
-    $input=json_decode( $inputJSON, TRUE ); //convert JSON into array
-    //print_r($input);
-    $secretKey="La-llave";
+    $input=json_decode( $inputJSON, TRUE );
+    $secretKey="aqui-va-la-llave";
     $ip=$_SERVER['REMOTE_ADDR'];
     $response=file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=".$secretKey."&response=".$input['captchaValue']."&remoteip=".$ip);
     $responseKeys = json_decode($response,true);
@@ -13,7 +12,21 @@
         $result['status']="error";
         $result['message']='Error al resolver el captcha';
     } else {
-        $msg="La persona ".$input['nombre']." con email ".$input['email']." y telefono ".$input['telefono']." se contacto para el asunto ".$input['asunto']." dejando el mensaje ".$input['mensaje'];
+        $msg="Este es un mensaje autogenerado por la forma de contacto de la página okuue.com\n\n".
+            "Se recibió una solicitud de contacto con la siguiente información:\n\n".
+            "Nombre: ".$input['nombre']."\n".
+            "Email: ".$input['email']."\n".
+            "Teléfono: ".$input['telefono']."\n".
+            "Asunto: ".$input['asunto']."\n".
+            "Mensaje: ".$input['mensaje']."\n\n".
+            "IP del cliente:".$ip."\n\n".
+            "--------------------------------------------------------------------------------\n".
+            "   ___   _ _         ___    \n".
+            "  / / |_(_) | ____ _| \ \   \n".
+            " / /| __| | |/ / _` | |\ \  \n".
+            " \ \| |_| |   < (_| | |/ /  \n".
+            "  \_\\__|_|_|\_\__,_|_/_/   \n\n".
+            "Tecnología que impulsa ideas\n";
         $mailSuccess = mail("info@okuee.com","Contacto okuee",$msg);
         if ($mailSuccess) {
             $result['status']='success';    
