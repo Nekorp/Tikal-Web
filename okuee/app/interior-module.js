@@ -169,7 +169,7 @@ interiorModule.controller('tikal.modules.industria.textil', ['$scope', '$locatio
         subtitle:'Industria textil',
         title1: 'Industria',
         title2: 'textil',
-        description: 'Nuestros procesos son realizados en nuestras instalaciones que lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
+        description: 'Industria dedicada a la fabricaci\u00F3n y acabado de telas.',
         
     };
 }]);
@@ -188,7 +188,7 @@ interiorModule.controller('tikal.modules.industria.institucional', ['$scope', '$
         subtitle:'Industria institucional',
         title1: 'Industria',
         title2: 'institucional',
-        description: 'Nuestros procesos son realizados en nuestras instalaciones que lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
+        description: 'Industria dedicada al desarrollo de productos para el cuidado del hogar, cuidado personal, limpieza industrial, y alimentaria. cumple con las necesidades del consumidor y el medio ambiente.',
         renglones: [{title:'DETERGENTES. ', content:'Base detergente multiusos: Mezcla de tensoactivos emulsificante  aplicado en el campo de la limpieza y desinfecci\u00F3n de pisos.'},
                     {title:'MAHS I. ', content:'Base detergente de estructura  granulada ideal para la preparaci\u00F3n de detergentes  en polvo y l\u00EDquido tipo zote y Vel rosita.'},
                     {title:'DETERGENTE PARA ROPA DELICADA. ', content:'Base concentrada de detergente transparente para ropa delicada tipo m\u00E1s color y Ariel.'},
@@ -222,7 +222,7 @@ interiorModule.controller('tikal.modules.industria.quimicos', ['$scope', '$locat
         subtitle:'Industria qu\u00EDmica',
         title1: 'Industria',
         title2: 'qu\u00EDmica',
-        description: 'Nuestros procesos son realizados en nuestras instalaciones que lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
+        description: 'Industria dedicada a la transformaci\u00F3n de sustancias naturales y sint\u00E9ticas.',
         renglones: [{title:'Contamos con la distribución de materias primas.', content:''},
                     {title:'', content:'\u00C1C. ACETICO AL 85%'},
                     {title:'', content:'\u00C1C. FOSFORICO.'},
