@@ -385,3 +385,11 @@ p {
     display: block;
     height: 500px;
 }
+
+.okuee-footer-link,
+.okuee-footer-link:hover{
+    font-family: 'Montserrat';
+    color: #fff;
+    font-size: 10px;
+    text-align: left;
+}
