@@ -62,7 +62,7 @@ contactoModule.controller('tikal.modules.contacto.ContactoCtrl', ['$scope', '$re
     $scope.response = null;
     $scope.widgetId = null;
     $scope.model = {
-        key: '6LcBvR0TAAAAAGiQlGHFvdh4NMQKjk-4I9Yagm2A'
+        key: '6LdN2R0TAAAAAOLZNQolt82-UQ1yuVQhO7ow_QqK'
     };
     $scope.setResponse = function (response) {
         console.info('Response available: %s', response);

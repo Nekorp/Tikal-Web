@@ -4,7 +4,7 @@
     $inputJSON=file_get_contents('php://input');
     $input=json_decode( $inputJSON, TRUE ); //convert JSON into array
     //print_r($input);
-    $secretKey="6LcBvR0TAAAAAMqogjAmJFZeOVEHys0ppF8Vyun7";
+    $secretKey="La-llave";
     $ip=$_SERVER['REMOTE_ADDR'];
     $response=file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=".$secretKey."&response=".$input['captchaValue']."&remoteip=".$ip);
     $responseKeys = json_decode($response,true);
