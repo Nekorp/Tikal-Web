@@ -7,7 +7,8 @@ var okueeModule = angular.module('tikal.modules.okuee',
                                   'tikal.modules.interior.Interior',
                                   'tikal.modules.menu.Menu',
                                   'tikal.modules.nostros.Nosotros',
-                                  'tikal.modules.contacto.Contacto'
+                                  'tikal.modules.contacto.Contacto',
+                                  'ngtweet'
 ]);
 
 okueeModule.config(function ($routeProvider, $httpProvider) {

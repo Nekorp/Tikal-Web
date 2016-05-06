@@ -1,15 +1,26 @@
 <okuee-header-a datos='datosHeader'></okuee-header-a>
 <div class="inicio-contenido">
     <okuee-text-intro contenido='datosIntro'></okuee-text-intro>
-    <div class="row inicio-divisiones">
-        <okuee-header-a datos='headerFeatDivisiones'></okuee-header-a>
-        <div class="row">
-            <div ng-repeat="feature in featuredDivisiones.features">
-                <okuee-feature-a contenido="feature"></okuee-feature-a>
-            </div>
+    <div class="row">
+        <okuee-header-b datos='headerFeatDivisiones'></okuee-header-b>
+    </div>
+    <div class="row inicio-featured-content row-eq-height">
+        <div ng-repeat="feature in featuredDivisiones.features">
+            <okuee-feature-b contenido="feature"></okuee-feature-b>
         </div>
     </div>
-    <div class="row inicio-procesos">
+    <!--<div class="row row-eq-height">
+        <div class="col-sm-4 col-eq-height inicio-featured-content-background-b">
+            <p>aaaaa<br>aaa</p>
+        </div>
+        <div class="col-sm-4 col-eq-height inicio-featured-content-background-b">
+            <p>aaaaaklmasas aksmalskma slmksalkmsas lksmalmslas lkmsalmslksma askmalkmslas klmsalmsalmskas aslkmslmasalkmsa klmslkms</p>
+        </div>
+        <div class="col-sm-4 col-eq-height inicio-featured-content-background-b">
+            <p>aaaaa</p>
+        </div>
+    </div>-->
+    <!--<div class="row inicio-procesos">
         <okuee-header-b datos='headerFeatProcesos'></okuee-header-b>
         <div class="row">
             <div ng-repeat="feature in featuredProcesosA.features">
@@ -21,5 +32,5 @@
                 <okuee-feature-b contenido="feature"></okuee-feature-b>
             </div>
         </div>
-    </div>
+    </div>-->
 </div>

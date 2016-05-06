@@ -21,6 +21,12 @@
     line-height: 14px;
 }
 
+.inicio-twitter {
+    /*height: 250px;*/
+    background-color: #ebebeb;
+
+}
+
 .inicio-recuadro-text {
     line-height: 14px;
     color: #363636;
@@ -49,17 +55,32 @@
     margin-right: -15px;
 }
 
+@media (min-width: 768px) {
+    .row-eq-height {
+        overflow: hidden;
+    }
+
+    .col-eq-height {
+        overflow: hidden;
+        margin-bottom: -99999px;
+        padding-bottom: 99999px;
+    }
+}
+
+@media (max-width: 768px) {
+    .col-eq-height {
+        padding-bottom: 25px;
+    }
+}
+
+
 .inicio-featured-content {
     padding-bottom: 25px;
 }
 
-/*.inicio-featured-content {
-    padding-bottom: 25px;
-}*/
-
 .inicio-featured-content-background-b {
     background-color: #6aab35;
-    padding-bottom: 25px;
+    /*padding-bottom: 25px;*/
 }
 
 .inicio-featured-header {
