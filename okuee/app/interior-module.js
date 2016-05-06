@@ -33,7 +33,7 @@ interiorModule.controller('tikal.modules.procesos.tintura.poliester', ['$scope',
 	$scope.datosHeader={
         title1: 'Nuestros',
         title2: 'procesos',
-        subtitle: 'Contamos con infraestructura y tecnolog\u00EDa de punta',
+        subtitle: '<p class="text-uppercase">Contamos con infraestructura y tecnolog\u00EDa de punta</p>',
         image:'resources/banner-proceso01.jpg'
     };
     $scope.datosContenido={
@@ -56,7 +56,7 @@ interiorModule.controller('tikal.modules.procesos.tintura.nylon', ['$scope', '$l
 	$scope.datosHeader={
         title1: 'Nuestros',
         title2: 'procesos',
-        subtitle: 'Contamos con infraestructura y tecnolog\u00EDa de punta',
+        subtitle: '<p class="text-uppercase">Contamos con infraestructura y tecnolog\u00EDa de punta</p>',
         image:'resources/banner-proceso02.jpg'
     };
     $scope.datosContenido={
@@ -76,7 +76,7 @@ interiorModule.controller('tikal.modules.procesos.tintura.algodon', ['$scope', '
 	$scope.datosHeader={
         title1: 'Nuestros',
         title2: 'procesos',
-        subtitle: 'Contamos con infraestructura y tecnolog\u00EDa de punta',
+        subtitle: '<p class="text-uppercase">Contamos con infraestructura y tecnolog\u00EDa de punta</p>',
         image:'resources/banner-proceso03.jpg'
     };
     $scope.datosContenido={
@@ -96,7 +96,7 @@ interiorModule.controller('tikal.modules.procesos.tintura.polialgodon', ['$scope
 	$scope.datosHeader={
         title1: 'Nuestros',
         title2: 'procesos',
-        subtitle: 'Contamos con infraestructura y tecnolog\u00EDa de punta',
+        subtitle: '<p class="text-uppercase">Contamos con infraestructura y tecnolog\u00EDa de punta</p>',
         image:'resources/banner-proceso04.jpg'
     };  
     $scope.datosContenido={
@@ -117,7 +117,7 @@ interiorModule.controller('tikal.modules.procesos.pre-blanqueo', ['$scope', '$lo
 	$scope.datosHeader={
         title1: 'Nuestros',
         title2: 'procesos',
-        subtitle: 'Contamos con infraestructura y tecnolog\u00EDa de punta',
+        subtitle: '<p class="text-uppercase">Contamos con infraestructura y tecnolog\u00EDa de punta</p>',
         image:'resources/banner-proceso05.jpg'
     };
     $scope.datosContenido={
@@ -137,7 +137,7 @@ interiorModule.controller('tikal.modules.procesos.acabado', ['$scope', '$locatio
 	$scope.datosHeader={
         title1: 'Nuestros',
         title2: 'procesos',
-        subtitle: 'Contamos con infraestructura y tecnolog\u00EDa de punta',
+        subtitle: '<p class="text-uppercase">Contamos con infraestructura y tecnolog\u00EDa de punta</p>',
         image:'resources/banner-proceso06.jpg'
     };
     $scope.datosContenido={
@@ -160,7 +160,7 @@ interiorModule.controller('tikal.modules.industria.textil', ['$scope', '$locatio
 	$scope.datosHeader={
         title1: 'Divisiones',
         title2: 'qu\u00EDmicas',
-        subtitle: 'Atendemos las necesidades de la industria',
+        subtitle: '<p class="text-uppercase">Atendemos las necesidades de la industria</p>',
         image:'resources/banner-textiles.jpg'
     };
     $scope.datosContenido={
@@ -177,9 +177,9 @@ interiorModule.controller('tikal.modules.industria.textil', ['$scope', '$locatio
 interiorModule.controller('tikal.modules.industria.institucional', ['$scope', '$location', '$log',
   function ($scope, $location, $log) {
 	$scope.datosHeader={
-        title1: 'Divisiones',
-        title2: 'qu\u00EDmicas',
-        subtitle: 'Atendemos las necesidades de la industria',
+        title1: 'DIVISIÓN',
+        title2: 'INSTITUCIONAL y LIMPIEZA',
+        subtitle: '<p class="text-uppercase">Impulsando tu negocio</p>',
         image:'resources/banner-institucional.jpg'
     };
     $scope.datosContenido={
@@ -211,9 +211,9 @@ interiorModule.controller('tikal.modules.industria.institucional', ['$scope', '$
 interiorModule.controller('tikal.modules.industria.quimicos', ['$scope', '$location', '$log',
   function ($scope, $location, $log) {
 	$scope.datosHeader={
-        title1: 'Divisiones',
-        title2: 'qu\u00EDmicas',
-        subtitle: 'Atendemos las necesidades de la industria',
+        title1: 'DIVISIÓN',
+        title2: 'QUÍMICOS',
+        subtitle: '<p class="text-uppercase">Creamos química para un futuro sustentable</p>',
         image:'resources/banner-quimicos.jpg'
     };
     $scope.datosContenido={

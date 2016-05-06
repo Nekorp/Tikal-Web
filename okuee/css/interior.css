@@ -30,7 +30,7 @@ sub-Titulo
 .okuee-subtitle {
     text-align: center;
     font-weight: bold;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
     font-family: 'Montserrat';
     color: #555555;
     font-size: 19px;

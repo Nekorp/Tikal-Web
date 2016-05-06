@@ -27,7 +27,7 @@ contactoModule.controller('tikal.modules.contacto.ContactoCtrl', ['$scope', '$re
     $scope.datosHeader = {
         title1: 'contáctanos',
         title2: "",
-        subtitle: 'en okuee factoría química estamos para escucharte',
+        subtitle: '<p class="text-uppercase">en okuee factoría química estamos para escucharte</p>',
         image:'resources/banner-contacto.jpg'
     };
     $scope.datosRecuadro = {

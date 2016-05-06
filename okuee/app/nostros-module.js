@@ -13,7 +13,7 @@ nostrosModule.controller('tikal.modules.nosotros.NosotrosCtrl', ['$scope', '$loc
     $scope.datosHeader = {
         title1: 'acerca de',
         title2: "o'kuee",
-        subtitle: 'industria qu\u00edmica mexicana de calidad a su alcance',
+        subtitle: '<p class="text-uppercase">industria qu\u00edmica mexicana de calidad a su alcance</p>',
         image:'resources/banner-nosotros1.jpg'
     };
     $scope.datosIntro = {
